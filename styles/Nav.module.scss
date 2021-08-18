@@ -1,0 +1,21 @@
+.header {
+    background-color: black;
+
+    .menu {
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 5vh;
+            list-style-type: none;
+
+            li, a {
+                color: white;
+                text-decoration: none;
+                padding: 1rem;
+            }           
+        }   
+        
+    }
+}
