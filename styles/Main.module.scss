@@ -29,25 +29,41 @@
         }
     }
 
-    .product_grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
-        justify-content: center;
-        align-items: center;
+    .section {
 
-        .card {
+        margin-top: 3rem;
 
-            h1 {
-                font-size: 1.3rem;
-                font-weight: 200;
-            }
+        .product_grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-content: start;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+    
+            .card {
+                
+                height: 12rem;
+                text-align: start;
+                margin: 1.5rem;
 
-            h2 {
-                font-size: .9rem;
-                color: gray;
+                img {
+                    display: block;
+                }
+    
+                h1 {
+                    font-size: 1.1rem;
+                    font-weight: 300;
+                }
+    
+                h2 {
+                    font-size: .7rem;
+                    color: gray;
+                }
             }
         }
+
     }
+    
 }
 

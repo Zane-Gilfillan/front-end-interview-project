@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 import styles from "../styles/Main.module.scss"
 import Image from 'next/image'
 import testImage from '../public/img/yummy.jpeg'
@@ -54,42 +55,42 @@ const Index = ({ data }) => {
             <div className={styles.product_grid}>
 
               <div className={styles.card}>
-                <Image src={data.aisle.groups[3].products[2].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[3].products[2].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[3].products[2].title}</h1>
                 <h2>${data.aisle.groups[3].products[2].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[3].products[3].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[3].products[3].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[3].products[3].title}</h1>
                 <h2>${data.aisle.groups[3].products[3].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[3].products[4].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[3].products[4].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[3].products[4].title}</h1>
                 <h2>${data.aisle.groups[3].products[4].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[3].products[5].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[3].products[5].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[3].products[5].title}</h1>
                 <h2>${data.aisle.groups[3].products[5].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[3].products[6].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[3].products[6].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[3].products[6].title}</h1>
                 <h2>${data.aisle.groups[3].products[6].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[3].products[7].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[3].products[7].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[3].products[7].title}</h1>
                 <h2>${data.aisle.groups[3].products[7].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[3].products[8].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[3].products[8].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[3].products[8].title}</h1>
                 <h2>${data.aisle.groups[3].products[8].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[3].products[9].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[3].products[9].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[3].products[9].title}</h1>
                 <h2>${data.aisle.groups[3].products[9].unitPrice}</h2>
               </div>
@@ -104,50 +105,50 @@ const Index = ({ data }) => {
             <div className={styles.product_grid}>
 
               <div className={styles.card}>
-                <Image src={data.aisle.groups[4].products[2].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[4].products[2].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[4].products[2].title}</h1>
                 <h2>${data.aisle.groups[4].products[2].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[4].products[3].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[4].products[3].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[4].products[3].title}</h1>
                 <h2>${data.aisle.groups[4].products[3].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[4].products[4].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[4].products[4].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[4].products[4].title}</h1>
                 <h2>${data.aisle.groups[4].products[4].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[4].products[5].assets[0].url} width='300' height='200' />
-                <h1>{data.aisle.groups[4].products[5].title}</h1>
-                <h2>${data.aisle.groups[4].products[5].unitPrice}</h2>
+                <Image src={data.aisle.groups[4].products[11].assets[0].url} width='300' height='250' />
+                <h1>{data.aisle.groups[4].products[11].title}</h1>
+                <h2>${data.aisle.groups[4].products[11].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[4].products[6].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[4].products[6].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[4].products[6].title}</h1>
                 <h2>${data.aisle.groups[4].products[6].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[4].products[7].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[4].products[7].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[4].products[7].title}</h1>
                 <h2>${data.aisle.groups[4].products[7].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[4].products[8].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[4].products[8].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[4].products[8].title}</h1>
                 <h2>${data.aisle.groups[4].products[8].unitPrice}</h2>
               </div>
               <div className={styles.card}>
-                <Image src={data.aisle.groups[4].products[9].assets[0].url} width='300' height='200' />
+                <Image src={data.aisle.groups[4].products[9].assets[0].url} width='300' height='250' />
                 <h1>{data.aisle.groups[4].products[9].title}</h1>
                 <h2>${data.aisle.groups[4].products[9].unitPrice}</h2>
               </div>
             </div>
           </div>
-
-          
         </div>
+
+        <Footer />
         
         
 
