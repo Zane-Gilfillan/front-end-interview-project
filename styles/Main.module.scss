@@ -67,3 +67,92 @@
     
 }
 
+@media screen and (max-width: 375px) {
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 375px;
+
+        .showcase {
+            width: 100%;
+            margin: 0;
+            padding: 4rem;
+            display: grid;
+            gap: 2.5rem;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+            align-items: center;
+
+            .img_wrap {
+                width: 375px;
+                position: relative;
+                bottom: 4.99rem;
+                z-index: -1;
+            }
+    
+            .text_wrap {
+
+                position: relative;
+                bottom: 9rem;
+                text-align: center;
+    
+                h1 {
+                    font-size: 3rem;
+                }
+    
+                p {
+                    font-size: .95rem;
+                    line-height: 1.7;
+                }
+            }
+        }
+
+        .section {
+            position: relative;
+           
+
+            .section_header {
+                position: relative;
+                bottom: 15rem;
+                margin-left: 1rem;
+            }
+    
+            .product_grid {
+                position: relative;
+                bottom: 16.5rem;
+                display: grid;
+                gap: .5rem;
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: start;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 2rem;
+        
+                .card {
+                    
+                    height: 12rem;
+                    text-align: start;
+                    margin: 1.5rem;
+    
+                    img {
+                        display: block;
+                        width: 375px;
+                    }
+        
+                    h1 {
+                        font-size: 1.1rem;
+                        font-weight: 300;
+                    }
+        
+                    h2 {
+                        font-size: .7rem;
+                        color: gray;
+                    }
+                }
+            }
+    
+        }
+    
+    }
+}

@@ -1,5 +1,6 @@
 .header {
     background-color: black;
+    
 
     .menu {
 
@@ -17,5 +18,22 @@
             }           
         }   
         
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+    .header {
+        width: 100%;
+
+        .menu {
+            
+            ul {
+                .collapse {
+                    display: none;
+                }
+            }
+            
+        }
     }
 }

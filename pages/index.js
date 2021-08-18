@@ -24,8 +24,7 @@ export async function getServerSideProps() {
 }
 
 const Index = ({ data }) => {
-  console.log(data)
-
+ 
   return (
 
     <div>
@@ -50,7 +49,7 @@ const Index = ({ data }) => {
 
           {/* product name with imgage grid below */}
           <div className={styles.section}>
-            <h1>{data.aisle.groups[3].name}</h1>
+            <h1 className={styles.section_header}>{data.aisle.groups[3].name}</h1>
 
             <div className={styles.product_grid}>
 

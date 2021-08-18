@@ -14,12 +14,15 @@ const Nav = () => {
                 <div className={style.menu}>
             
                     <ul>
-                        <li>
-                            <Link className={style.link_style} href='/'>stores</Link>
+                        <li className={style.collapse} >
+                            <Link href='/'>stores</Link>
                             <Link href='/'>contact us</Link>
                         </li>
                         <li>
                             <Link href='/'>FOXTROT</Link>
+                        </li>
+                        <li>
+                        <i className="fas fa-shopping-cart fa-1x"></i>
                         </li>
                         
                     </ul>
